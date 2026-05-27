@@ -2,7 +2,7 @@
 ## 🚀 Executive Summary
 This project analyzes a 90,000+ player A/B test for a casual mobile game. The core objective was to evaluate the business and user engagement impact of moving the first in-game monetization paywall (gate) from Level 30 to Level 40. 
 
-**The Business Verdict:** Delaying the paywall to Level 40 provided zero increase in daily engagement but caused a statistically significant drop in 7-Day Retention. Moving the gate would cost the business an estimated **$49,000 annually** in lost Lifetime Value (LTV). The recommendation is to halt the rollout and strictly keep the gate at Level 30.
+**The Business Verdict:** Delaying the paywall to Level 40 provided zero increase in daily engagement but caused a statistically significant drop in 7-Day Retention. Moving the gate would cost the business an estimated **$48,620 annually** in lost Lifetime Value (LTV). The recommendation is to halt the rollout and strictly keep the gate at Level 30.
 
 ---
 
@@ -25,7 +25,7 @@ Instead of blindly applying basic averages, the dataset was rigorously tested fo
 
 1. **Top-of-Funnel (Engagement):** * Evaluated total game rounds played. The data was heavily right-skewed with extreme outliers (e.g., a "whale" playing 49,000+ rounds).
    * Applied **Welch’s T-Test** and the **Mann-Whitney U Test** to accommodate the non-parametric distribution.
-   * *Result:* No statistically significant difference in total rounds played between the two gates (p = 0.75).
+   * *Result:* No statistically significant difference in total rounds played / engagement between the two gates (p = 0.75).
    
 2. **Bottom-of-Funnel (Retention Leak):** * Mapped the user retention funnel from Install -> Day 1 -> Day 7.
    * Evaluated using the **Chi-Square Test of Independence**.
@@ -36,14 +36,14 @@ Instead of blindly applying basic averages, the dataset was rigorously tested fo
 ## 💰 Revenue Impact Analysis
 Statistical significance must translate to business value. To quantify the Day 7 retention leak, I conducted a revenue impact analysis using industry LTV benchmarks for casual puzzle games.
 
-* **Absolute Retention Drop:** 0.82% (Retention fell from 19.02% to 18.20%).
-* **Relative Drop:** 4.3% of the existing 7-day player base.
+* **Absolute Retention Drop:** 0.81% (Retention fell from 19.84% to 19.03%).
+* **Relative Drop:** 4.08% of the existing 7-day player base.
 
 **Revenue Simulation:**
 Assuming a conservative baseline of 100,000 new monthly downloads and a $5.00 Average Lifetime Value (LTV) for a retained player:
-* **Monthly Players Lost:** ~820
-* **Monthly Revenue Lost:** $4,100
-* **Annual Revenue Impact:** **-$49,200**
+* **Monthly Players Lost:** ~810
+* **Monthly Revenue Lost:** $4,051
+* **Annual Revenue Impact:** **-$48,620**
 
 ---
 
@@ -70,4 +70,4 @@ Assuming a conservative baseline of 100,000 new monthly downloads and a $5.00 Av
 * `cookie_cats.csv`: The raw telemetry data (90,189 rows).
 * `PRD.md`: The Experimentation Spec detailing the product strategy.
 
-***Data Source Note:** This public dataset was originally provided by Tactile Entertainment and sourced via DataCamp/Kaggle.*
+***Data Source Note:** This public dataset was originally provided by Tactile Entertainment and sourced via DataCamp/Kaggle.![Cookie Cats Data](https://www.kaggle.com/datasets/mursideyarkin/mobile-games-ab-testing-cookie-cats)*

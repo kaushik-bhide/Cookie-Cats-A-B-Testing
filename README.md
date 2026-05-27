@@ -50,9 +50,9 @@ Assuming a conservative baseline of 100,000 new monthly downloads and a $5.00 Av
 ## 📈 Key Visualizations
 
 * **The Retention Funnel (Day 1 vs. Day 7):**
-  ![Retention Funnel](assets/retention_funnel.png)
+  ![Retention Funnel](assests/retention_funnel.png)
 * **Engagement Distribution (The Skew):**
-  ![Engagement Skew](engagement_skew.png)
+  ![Engagement Skew](assests/engagement_skew.png)
 
 ---
 

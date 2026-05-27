@@ -70,4 +70,4 @@ Assuming a conservative baseline of 100,000 new monthly downloads and a $5.00 Av
 * `cookie_cats.csv`: The raw telemetry data (90,189 rows).
 * `PRD.md`: The Experimentation Spec detailing the product strategy.
 
-***Data Source Note:** This public dataset was originally provided by Tactile Entertainment and sourced via DataCamp/Kaggle.![Cookie Cats Data](https://www.kaggle.com/datasets/mursideyarkin/mobile-games-ab-testing-cookie-cats)*
+***Data Source Note:** This public dataset was originally provided by Tactile Entertainment and sourced via DataCamp/Kaggle.[Cookie Cats Data](https://www.kaggle.com/datasets/mursideyarkin/mobile-games-ab-testing-cookie-cats)*

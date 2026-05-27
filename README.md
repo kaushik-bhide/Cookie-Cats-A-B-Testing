@@ -16,7 +16,7 @@ In free-to-play mobile games, "gates" act as forced pauses where players must ei
 * **Control Group:** Gate at Level 30.
 * **Treatment Group:** Gate pushed back to Level 40.
 
-The product hypothesis was that giving players a longer uninterrupted "honeymoon" phase (up to Level 40) would increase their overall engagement and keep them playing longer. 
+The product hypothesis was that giving players a longer uninterrupted "engagement" phase (up to Level 40) would increase their overall engagement and keep them playing longer. 
 
 ---
 
@@ -59,7 +59,7 @@ Assuming a conservative baseline of 100,000 new monthly downloads and a $5.00 Av
 ## 💻 Tech Stack & Workflow
 * **Language:** Python
 * **Data Manipulation:** `pandas`, `numpy`
-* **Statistical Inference:** `scipy.stats` (Chi-Square, Mann-Whitney U, Welch's T-Test, Shapiro-Wilk)
+* **Statistical Inference:** `scipy.stats` (Chi-Square, Mann-Whitney U, Welch's T-Test)
 * **Data Visualization:** `matplotlib`, `seaborn`
 * **Workflow:** Led the statistical strategy and business analysis, leveraging LLMs (Gemini) as a coding copilot for rapid syntax generation and visualization formatting.
 
